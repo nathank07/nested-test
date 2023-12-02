@@ -8,6 +8,10 @@ Efficiency testing of nested functions vs. unnested functions in C. Precompiled 
 ```bash
 gcc -o test test.c
 ```
+1. Alternatively, make the existing file executable. (Do this if not compiling your own)
+```
+chmod +x ./test
+```
 2. In the same directory, run command
 ```bash
 ./test
